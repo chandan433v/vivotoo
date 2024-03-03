@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="popularproduct.css">
+</head>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const dropdownToggle = document.querySelector('.dropdown-toggle');
+    const dropdown = document.querySelector('.dropdown');
+
+    dropdownToggle.addEventListener('click', function () {
+      dropdown.classList.toggle('active');
+    });
+
+    // Close the dropdown when clicking outside of it
+    window.addEventListener('click', function (event) {
+      if (!event.target.matches('.dropdown-toggle')) {
+        dropdown.classList.remove('active');
+      }
+    });
+  });
+</script>
+
+<body>
+  <header>
+    <h1>VIVO STORE</h1>
+  </header>
+  <nav id="navbar">
+    <ul>
+      <li class="dropdown">
+        <button class="dropdown-toggle">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </button>
+        <div class="dropdown-content">
+          <a href="/toystore/gadgetstore.html">Home</a>
+          <a href="/smartphone/smartphone.html">Shop</a>
+          <a href="/vivophone/vivo.html">Vivo</a>
+          <a href="/iqoosmartphone/iqoo.html">Iqoo</a>
+        </div>
+      </li>
+      <!-- <li><a href="#home">Home</a></li> -->
+      <li><a href="/contacts/contact.html">Contact</a></li>
+      <li><a href="/about/aboutpage.html">About</a></li>
+    </ul>
+  </nav>
+  <br><br>
+
+  <div id="product">
+    <div class="popularproduct">
+      <a href="/buy&detail/Iqoo12.html">
+        <div class="productimage">
+          <img
+            src="https://exstatic-in.vivo.com/Oz84QB3Wo0uns8j1/in/1708057916225/8076ace5be078fd5cad2bd0513a84183.png_w390-h390.webp"
+            alt="image">
+        </div>
+        <div class="productname">
+          <h3 class="name_price">IQOO 12 5G</h3>
+          <h3 class="name_price">₹52,999.00</h3>
+          <h4 class="name_price">₹59,999.00</h4>
+        </div>
+      </a>
+    </div><br><br>
+
+    <div class="popularproduct">
+      <a href="/buy&detail/x100.html">
+        <div class="productimage">
+          <img
+            src="https://exstatic-in.vivo.com/Oz84QB3Wo0uns8j1/in/1704281113769/4dace41f31f81a6decd32ba13a9a7690.png_w390-h390.webp"
+            alt="">
+        </div>
+        <div class="productname">
+          <h3 class="name_price">X100</h3>
+          <h3 class="name_price">₹63,999.00</h3>
+          <h4 class="name_price">₹68,999.00</h4>
+        </div>
+      </a>
+    </div><br><br>
+
+    <div class="popularproduct">
+      <a href="/buy&detail/V29e.html">
+        <div class="productimage">
+          <img
+            src="https://exstatic-in.vivo.com/Oz84QB3Wo0uns8j1/in/1692938755979/065a37dce4f7228535e5201d8b8498db.png_w860-h860.webp"
+            alt="">
+        </div>
+        <div class="productname">
+          <h3 class="name_price">VIVO V29e</h3>
+          <h3 class="name_price">₹26,999.00</h3>
+          <h4 class="name_price">₹31,999.00</h4>
+        </div>
+      </a>
+    </div><br><br>
+
+    <div class="popularproduct">
+      <a href="/buy&detail/v29.html">
+        <div class="productimage">
+          <img
+            src="https://exstatic-in.vivo.com/Oz84QB3Wo0uns8j1/in/1695965638728/8384f087f17942e0c151ec2a0f761613.png_w860-h860.webp"
+            alt="">
+        </div>
+        <div class="productname">
+          <h3 class="name_price">VIVO V29</h3>
+          <h3 class="name_price">₹32,999.00</h3>
+          <h4 class="name_price">₹32,999.00</h4>
+        </div>
+      </a>
+    </div><br><br>
+
+    <div class="popularproduct">
+      <a href="/buy&detail/T2PRO.html">
+        <div class="productimage">
+          <img
+            src="https://exstatic-in.vivo.com/Oz84QB3Wo0uns8j1/in/1695289964447/c03551fd182296c02639860c53e79d28.png_w860-h860.webp"
+            alt="">
+        </div>
+        <div class="productname">
+          <h3 class="name_price">VIVO T2 PRO</h3>
+          <h3 class="name_price">₹24,999.00</h3>
+          <h4 class="name_price">₹27,999.00</h4>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div><br><br>
+    <footer>
+      <p>&copy; 2024 Vivo Store. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+
+</html>

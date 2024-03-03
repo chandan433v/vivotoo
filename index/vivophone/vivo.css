@@ -1,0 +1,138 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #e5eaf5;
+ color: #0a0b0b;
+}
+
+.header {
+ background-color:#c4caca;
+ color: rgb(18, 19, 20);
+ text-align: center;
+ padding: 1em;
+}
+
+nav {
+ display: grid;
+ background-color:#c4caca;
+ color: rgb(18, 19, 20);
+ position: sticky;
+ top: 0;
+ z-index: 1000;
+ margin: 0px;
+}
+
+.menu{
+ display: block;
+ cursor: pointer;
+ margin-top: 10px;
+ margin-right: 20px;
+}
+
+.line{
+ width: 25px;
+ height: 3px;
+  background-color: #110f0f; 
+ margin: 5px 0;
+}
+
+nav ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ justify-content: end;
+}
+
+nav ul li {
+ margin-right: 20px;
+}
+
+nav ul li a {
+ text-decoration: none;
+ color: black;
+ padding: 15px;
+ display: block;
+}
+
+nav ul li  a:hover {
+ background-color: #555;
+}
+
+.dropdown {
+ position: relative;
+ display: flex;
+ margin-right: 60px;
+}
+
+.dropdown-toggle {
+ background-color:#c4caca;
+ border: none;
+ padding: 0px 0px;
+ cursor: pointer;
+}
+
+.dropdown-content {
+ display: none;
+ position: absolute;
+ color: rgb(6, 0, 0);
+ background-color: #70706e;
+ z-index: 6;
+}
+
+.dropdown-content a {
+ display: block;
+ padding: 10px 20px;
+ text-decoration: none;
+ color: #0c0a0a;
+ width: 120px;
+
+}
+
+.dropdown-content a:hover {
+ background-color: #f1f1f1;
+}
+
+.dropdown.active .dropdown-content {
+ display: block;
+ margin-top: 48px;
+ margin-left: 27px;
+}
+
+
+.phone {
+ display: flex;
+ /* border: 1px solid white; */
+ width: 80%;
+ margin: auto;
+ flex-wrap: wrap;
+ overflow-x: hidden;
+}
+
+.phoneimage img {
+ margin: 10px;
+ /* width: 220px; */
+ height: 270px;
+ 
+}
+
+.phonespecs h3 {
+ margin: 2px;
+ margin-left: 20px;
+ text-decoration: underline;
+}
+
+.price {
+ 
+ margin: 20px;
+}
+
+.price h2 {
+ margin: 2px;
+}
+
+.price h4 {
+ margin: 2px;
+ text-decoration: line-through;
+}

@@ -1,0 +1,175 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #e5eaf5;
+ color: #101010;
+overflow-x: hidden;
+}
+
+header {
+ background-color:#c4caca;
+ color: rgb(7, 6, 6);
+ text-align: center;
+ padding: 1em;
+}
+
+.detail_product {
+ display: flex;
+ margin: auto;
+ width: 75%;
+ border: 1px solid rgb(28, 26, 26); 
+}
+
+.image_detail {
+ width: 85%;
+ margin: auto;
+ margin-top: 3vmax;
+ flex-wrap: wrap;
+}
+
+.smallbigimg {
+ display: flex;
+ height: 34vmax;
+margin: 10px;
+background-color:#dedcd8;
+width: 100%;
+
+}
+
+.smallimg {
+ display: flex;
+ width: 70px;
+ margin: 10px;
+ padding: 2px;
+ border: 1px solid rgb(188, 184, 184);
+ overflow-y: auto;
+ white-space: nowarp;
+ scrollbar-width: none;
+ justify-content: center;
+}
+
+.source-image {
+ width: 80px;
+ height: 80px;
+}
+
+.bigimg {
+ display: flex;
+
+}
+
+.image-container {
+ position: relative;
+  width: 30vmax;
+ height: 33vmax;
+}
+
+.image-container img{
+ transition: transform 3s ease;
+}
+
+.target-container {
+ width: 30vmax;
+ height: 33vmax;
+ align-self: center;
+ 
+}
+
+.target-image {
+ display: grid;
+ width: 100%;
+ height: 100%;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ margin-left: 20px;
+}
+
+.target-image h4{
+ justify-self: center;
+ align-self: center;
+}
+
+.detail {
+ margin: 20px;
+}
+
+.content {
+ margin: 20px;
+}
+
+.color {
+ display: flex;
+ margin-top: 20px;
+ margin-left: 20px;
+}
+
+.color_image {
+ display: grid;
+ margin: 20px;
+ flex-wrap: wrap;
+}
+
+.color_image h4 {
+ font-size: 1em;
+}
+
+.color img {
+ width: 5vmax;
+ justify-self: center;
+ flex-wrap: wrap;
+}
+
+.spec{
+ display: flex;
+ margin: 20px;
+}
+
+.spec_type{
+ display: flex;
+ margin-left: 20px;
+ flex-wrap: wrap;
+}
+
+.spec_type h4{
+ border: 1px solid white;
+ border-radius: 5%;
+ margin-left: 20px;
+ padding: 5px;
+}
+
+.specification{
+ margin-left: 20px;
+ margin-right: 20px;
+ 
+}
+
+.basic, .camera, .display, .body, .network, .connectivity, .sensors{
+ margin: 20px;
+}
+
+.phonedetail{
+ margin-left: 20px;
+ margin-right: 20px;
+ 
+}
+
+.phoneimg img{
+ width: 100%;
+}
+
+.phoneimg h4{
+ display: none;
+}
+
+@media screen and (max-width: 992px) {
+ .image_detail{
+  width: 100%;
+ overflow-x: hidden;
+ }
+
+ .smallbigimg{
+  margin: 0px;
+ }
+}

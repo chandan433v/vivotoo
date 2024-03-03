@@ -1,0 +1,166 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #e5eaf5;
+ color: #0d0d0e;
+ 
+}
+
+
+header {
+ background-color:#c4caca;
+ color: rgb(9, 9, 9);
+ text-align: center;
+ padding: 1em;
+ 
+}
+
+nav {
+ display: grid;
+ background-color:#c4caca;
+ color: #0b0707;
+ position: sticky;
+ top: 0;
+ z-index: 1000;
+}
+
+.menu{
+ display: block;
+ cursor: pointer;
+ margin-top: 10px;
+ margin-right: 20px;
+}
+
+.line{
+ width: 25px;
+ height: 3px;
+ background-color: #100e0e;
+ margin: 5px 0;
+}
+
+nav ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ justify-content: end;
+}
+
+nav ul li {
+ margin-right: 20px;
+}
+
+nav ul li a {
+ text-decoration: none;
+ color: #121212;
+ padding: 15px;
+ display: block;
+}
+
+nav ul li  a:hover {
+ background-color: #555;
+}
+
+.dropdown {
+ position: relative;
+ display: flex;
+ margin-right: 60px;
+}
+
+.dropdown-toggle {
+ background-color:#c4caca;
+ border: none;
+ padding: 0px 0px;
+ cursor: pointer;
+}
+
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #fff;
+ z-index: 6;
+}
+
+.dropdown-content a {
+ display: block;
+ padding: 10px 20px;
+ text-decoration: none;
+ color: #333;
+ width: 120px;
+
+}
+
+.dropdown-content a:hover {
+ background-color: #f1f1f1;
+}
+
+.dropdown.active .dropdown-content {
+ display: block;
+ margin-top: 60px;
+margin-left: 30px;
+}
+
+#popular{
+ display: flex;
+ width: 100%;
+ height: auto;
+}
+.popular_product{
+ display: flex;
+ float: left;
+ width: 100%;
+ height: auto;
+}
+
+#product{
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ padding: 10px;
+ background-color: #e5eaf5;
+ /* border: 1px solid rgb(249, 251, 252); */
+ box-shadow: 10px 10px 20px rgba(70, 69, 69, 0.4);
+ 
+  /* background-color:#c4caca; */
+}
+
+.popularproduct{
+ display: grid;
+ margin-right: 10px;
+ padding: 3% 6%;
+ margin: 10px;
+ border: 1px px solid #706666;
+ border-radius: 5px;
+ align-self: center;
+ align-items: center;
+ box-shadow: 10px 10px 20px rgba(70, 69, 69, 0.4);
+ background-color:#c4caca;
+
+}
+
+.popularproduct a{
+  text-decoration: none;
+  color: #0b0707;
+}
+
+.name_price{
+display: flex;
+justify-content: center;
+margin: 2px;
+}
+
+.productname h4{
+text-decoration: line-through;
+}
+.popularproduct img{
+ width: 235px;
+ height: 230px;
+}
+
+footer {
+ background-color:#c4caca;
+ color: #0b0a0a;
+ text-align: center;
+ padding: 10px 0;
+}

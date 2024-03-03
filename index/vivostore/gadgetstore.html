@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="gadgetstore.css">
+  <link rel="stylesheet" href="gadgetstore.js">
+  <title> VIVO STORE</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>VIVO STORE</h1>
+  </header>
+  <nav id="navbar">
+    <ul>
+      <li class="dropdown">
+        <button class="dropdown-toggle">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </button>
+        <div class="dropdown-content">
+          <a href="/smartphone/smartphone.html">Shop</a>
+          <a href="/vivoupdate/update.html">Update</a>
+          <a href="/vivophone/vivo.html">Vivo</a>
+          <a href="/iqoosmartphone/iqoo.html">Iqoo</a>
+          <a href="/popularproduct/popularproduct.html">Popular</a>
+        </div>
+      </li>
+      <!-- <li><a href="#home">Home</a></li> -->
+      <!-- <li><a href="#services">Services</a></li> -->
+      <li><a href="/contacts/contact.html">Contact</a></li>
+      <li><a href="/about/aboutpage.html">About</a></li>
+    </ul>
+  </nav>
+  <div id="home">
+    <div class="center">
+      <div id="logo" style="box-shadow: rgba(161, 57, 57, 0.9);">
+        <h3> VIVO STORE</h3>
+      </div>
+      <h2>Welcome to Vivo Store</h2>
+      <p>Your ultimate destination for the latest innovations in smartphones and accessories! At Vivo Store, we strive
+        to provide an exceptional online shopping experience, offering a wide range of cutting-edge devices that
+        seamlessly blend style, functionality, and affordability.</p>
+    </div>
+  </div>
+
+
+  <div class="slider">
+    <div class="slides">
+      <a href="/buy&detail/Iqoo12.html">
+        <img src="/zimage/Screenshot 2024-02-26 102310.png "alt="Image 1">
+      </a>
+      <a href="/buy&detail/Iqooz7s.html">
+        <img src="/zimage/Screenshot 2024-02-26 102345.png" alt="Image 2">
+      </a>
+      <a href="/buy&detail/iqooneo9pro.html">
+        <img src="/zimage/Screenshot 2024-02-26 102234.png" alt="Image 3">
+      </a>
+    </div>
+    <button class="prev" onclick="prevSlide()">&#10094;</button>
+    <button class="next" onclick="nextSlide()">&#10095;</button>
+  </div>
+  <script src="gadgetstore.js"></script>
+  <br><br>
+  <hr>
+
+  <div class="headername">
+    <h2>Shop</h2>
+  </div>
+  <div id="shop">
+
+    <div class="shopproduct">
+      <a href="http://127.0.0.1:5500/smartphone/smartphone.html">
+        <div class="shopimg">
+          <img
+            src="https://img2.gadgetsnow.com/gd/images/products/medium/G477122/mobiles/smartphones/vivo-v29-5g-128-gb-himalayan-blue-8-gb-ram-.jpg"
+            alt="">
+        </div>
+        <div class="shopname">Shop</div>
+      </a>
+    </div>
+
+    <div class="shopproduct">
+      <div class="shopimg">
+        <img
+          src="/zimage/Screenshot 2024-03-01 110052.png"
+          alt="iamge" class="update">
+      </div>
+      <a href="/vivoupdate/update.html">
+        <div class="shopname">Vivo Updates</div>
+      </a>
+    </div>
+
+    <div class="shopproduct">
+      <div class="shopimg">
+        <img src="https://m.media-amazon.com/images/I/61VSOkk5yZL._AC_UY218_.jpg" alt="image">
+      </div>
+      <div class="shopname">Accessories</div>
+    </div>
+    
+  </div>
+  <br><br>
+  <hr>
+
+  <div class="headername">
+    <h2>Brands</h2>
+  </div>
+  <div id="brands">
+    <div class="brand vivo">
+      <a href="http://127.0.0.1:5500/vivophone/vivo.html">
+        <img
+          src="https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1699348133880/e3525f8bc68c28e076f3a2db8746062d.jpg"
+          alt="vivo image">
+        <div class="_brand">VIVO</div>
+      </a>
+    </div>
+
+    <div class="brand iqoo">
+      <a href="http://127.0.0.1:5500/iqoosmartphone/iqoo.html">
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAflBMVEX8sgH8sgAAAAAAAAH/tQH/uAH2rQG3ggEeFQD/ugGMYgH6swD/vAFALQCNZAGuewE5KADOkwF2VAHtqQHBiQGndgFgRAHgoAF/WgE1JQEoHACdbwGVagGFXwFyUAEXEQEtIAEPCwFPOAFZPwH/wgEjGQFpSgFIMwDVmwHlpwGeQ1ZYAAAKS0lEQVR4nO1aC5uiOhIlUEHtqIiAqPhsp9X+/39wk1SCPBLUuTtzd7+u022PIxySSuodgyBg+tf8Mf+6XvU9/w7BRewRCAQCgfC/B4ozBMIPBjkAwl8AqRmB8INBDoDwF0BqRiD8YJADIBAIBMKfBMUZAuE9kM0QCO+BbIZAeA9kMwTCeyCbIRDeA9kMgUAgEP4kKM4QCD8Y5AD+X/BMRPFPn8z0zz95wuANj61iGoFgA3saMJA/rN7aV7QGH28QMOEktu5tzt3yuqQeoQlhSUMrABxA3wacw+AyNcAUjyONvcFT4024EYZz/gYtrjYzidvIS4LpNK0ON3XX7DLP4yl/TWFg8uteLJH3uR9lv17kMT79TtafyFsn5a+X14HFH6HC0SOMgGm2i8IoCg2iaJVzrhVoWJRpVmzDJm65mAyan36gmIhk1hgtCr+SeAIv2a0VZuwURgCUSy1I/Xgl1yIXT0QJIJs3VsAQ5bTAz5NmK1coLs5RazD5e66ygV19WBuL5w1hOuYpIE6+1KOjqLk18v21hNpcHeYJ8UiublsWPbFVCjBgzwDpZ9QcLMT/RZ95AM8dwNDOMCjXkVUx+/wIV+uUC78mg9TMqLMvyIzGCRvgiaSzclacaFxlzy1nwGYY3FcR7ktYq4yWRL0/S5Xxzen7YOcTWUZkZxUVfl62w7FCs6uRsRr9hHU2oKIG8W67WCw2s7wrjID7p52SeuJ2s9gco4cSjH2zguyKuoFQvK/mBzsvbx/Vo0kDk7xtTZMfH4YMzqBMNbLujZBdrNpH4ecuyeVNo2o9Du2qbRNpr30fA/Gy3s3ohry82m8f8uzAJQ3E8/PDxewLzSvmM+ME5M/ayWuCqYCo0Pv8YL1YdM3LmIGKgEGW7r6sCmxShwdkMI+MckS3URkHigdxdq9ORoWirctzMiiOVhFmxT2TPDmzIC6TjVmGMCxejFS9Z08LqxbhKFPx3wwJ4n5FLyCF/Iae+5+MvvQ6yjuqbzkhw2MglDfBzfl0rAJPZ9ZLfJRBzZNvvndWt0/p5HdECaAcG8Obpbylq3Jaa2M3UdHzjko5USk20pu2eXF1NtfmvTAF2drI8iX9XWe80dmo2srlQp9VG0EwXRondCuhS2B8bYRZlKJNFLwyDmmRcibaIwCvzrhnpxza1wTLjzaw8u7UAPIv3LNjMXnMwpVOMjSZ1gXG7yfcl1MKfSMHfjVus+o8EMoVuiMVt7o8AfzD+IB9x6PJjUGDOu8m3SnKx3Adf+Tv6ol/zr414tZNfI47ex45yRCPUSlOnVAGyRid3dwZUyFb4awWHath6RiFubo8ltRQ9NrhyZ8Pq/swzixUnBGNTy+46UtP3J2MjBbmresMNV+mH6V70AlqU9faWFyhLz97eDy9oTT7vm41c7NmBmBVn+cLPeTXCFylkwiEmKFJrluploqzinjeQYvwuAGuKIxapcc1HdPU85aTJuFBlA4fg9CqBL/NgDM3gwrVSFP7kMJAgX772HKWkGteuHHz9DJZ19G8A0oTBvy8dKGJi3wgcDqFYQFqS/jhrT9xeDmrph6yoEJluHjNlIEJqGlLmNwI440jgIofHgu/LO6smcUH/eE28Zef2QJjRnNS0gBRmJ3fTKc3XKekuU6sQJNZeoVhsEc92/UT/+F6RqaKqC0q+2wqaB0cZBG1xPExLODLpoph/bCu6otgMkde8ajvJLHC7aogcNtMwCYFBqJ5zN6rZ6DEPZ2lXQVVnQbD22HSUjQWE7ID2n8vBX+s4qTAlKYZoZiYY1BM/AYxSVCYj9inwX5h9KRu986kIJvZZI/dE42mydbCpOCr2AUvMA1tC7PGbG/kF4aP0Ld8eMuhoKNmD2HMzrSF4dkm2iaoHqrrpNCyYymMlib3pbdyZyqMUN2d0TFzYGe4d2f6cea5zUh3XKrgshkJ1kvmapsx1s3d2Z/8O1ljItSxGf1ZVHGfzQS8esVmHDsjrRs/bBUQUOrKE6VxQhkSJjMem2GBmG70nLreDGvl1YA3wylFO9/ggcdmRGAK2GbyoPIqLEg27oRNzbVAYT69nSiIMW8+t3wLy02p462+IMPcYjygiZ7uDBRf+tPP+4MK2Yet/73SQI59v5OrBtWYJLhMs04GcEaf7uXx/OQ04+BpnKnLvnNhSkxdjsR1UbYdTZx2Yz1HuPfkZkJ8orbsY9HKza745Eud7raJuiBUN1yzgdzMvTOMmaz50vK8Ymk7HF/51LU39mmRYwH19ckI43jUMhmln6ZN4olQPN/gyPOhnobTAWjfYaqvui5RqatY2kbT1i0NjLZ4fSnDgegFG17esA693duT4vetaec4w4j0+aHJM4frGWdHE7KNaT60zEPEa9vh3LoeKyA+YDsj7PWTZCoD4oqyhN0KNYjnpmtxcFRnIHamTXVwGOuTOCNf053pfB1zgAfhYTdSGnDYDU+wExWeC2GaB3ZEYcmqPdO5FkC6Mc2OPepC4yKICp1deMIVfCvOaJOcmcU4jwQ0TbW2m0XuWCazNaqa77Tu9YECNl5VQtlWQcHU4qNm77PW5jDducYhl8OHD77GuZjkdWv2o4w5ejVVlWVrU/lGs9wRwHQVhQ3pZRpz7JSojkmWX0ypHV0dNZjKB01beZVnpivJGECcrizv5imqH8I4HYBcKr6rTwBOVfod226WlOYcYq/kljuKN57YLld4nue6pQkiLvNl3Z91uzrpsOyeH9eSJ5Q8kvdhe5GRPxl/Iow1D9PKPl3nRZLZNVwaKeXe9DRNMDAdSF1VX/dVMkqq/SWqMXaHXOmej2Y0tTvI+1idH8TiaavZK8zDH6LWnOtKV10wYcG1yKA806PdHR7Hx6g+0pCkxJNdgShqzVZ/FM+05zR3N3CyY4XxHjYxXTjW4oSPClll1Wa6i179pg99TZ/aMG3HXL9zuQ0rTW5PccJ6j+x5wsC5TkMY786oWRXjyM6lIYy8sLKTvU1cpxqjk53QA9jtTYdONSHd2uc2OOhsvPvyLDerX8yeMUa4M2YiMmRc8MNjVqdgrbBRXptH1LUpzLNOcLIEnBLTbdoGzTjGaKnPUPuEjlhDp82qy8uSBcaGxs5oD31R05tl/ZayHggg/ww7wpyv5dMjfeDpKmwQdY/4kj49ZmoJc/Y1cdkE8stie2yqmWql60T3VoJweGclrqyq08NsO8bE8jw+3fbl829byGXi/L6encZYE0jebFlOX/yWBouLy0ri6vfhwKdxXuyvl3ZyCOVhVfKh7yjwKaTJ/iqffpgn6XT6/EiywZsfFO+jSPmrvEDHhd6JRv8mzqF9BKTWvvQ2Ux/zUqmD+hIRf31GCqpTomYF73x1Ro/40jC9wxaVpLw8xm98x0v0Dfy/Bs90Xpzl739h7YfB3dXqv+p7/h2Ci9gjEAiEN0EOgPAXQGpGIPxgkAMgEAgEwp8ExRkC4T2QzRAI74FshkB4D2QzBMJ7IJshEN4D2QyBQCAQ/iQozhAIPxjkAAh/AaRmBMIPBjkAAoFAIPwx/AdAJ4ICsH7CSAAAAABJRU5ErkJggg=="
+          alt="iqoo image">
+        <div class="_brand">IQOO</div>
+      </a>
+    </div>
+
+  </div>
+  <br><br>
+  <hr>
+
+  <div class="headername">
+    <h2>Popular product</h2>
+  </div>
+  <div id="product">
+    <div class="popularproduct">
+      <a href="/buy&detail/Iqoo12.html">
+        <div class="productimage">
+          <img
+            src="https://exstatic-in.vivo.com/Oz84QB3Wo0uns8j1/in/1708057916225/8076ace5be078fd5cad2bd0513a84183.png_w390-h390.webp"
+            alt="">
+        </div>
+        <div class="productname">
+          <h3 class="name_price">IQOO 12 5G</h3>
+          <h3 class="name_price">₹52,999.00</h3>
+          <h4 class="name_price">₹59,999.00</h4>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="popularproduct">
+      <a href="/buy&detail/x100.html">
+        <div class="productimage">
+          <img
+            src="https://exstatic-in.vivo.com/Oz84QB3Wo0uns8j1/in/1704281217116/e541e616989e1bb591be46e05181af8f.png_w860-h860.webp"
+            alt="">
+        </div>
+        <div class="productname">
+          <h3 class="name_price">X100</h3>
+          <h3 class="name_price">₹63,999.00</h3>
+          <h4 class="name_price">₹68,999.00</h4>
+        </div>
+      </a>
+    </div>
+
+    <div class="popularproduct">
+      <a href="/buy&detail/V29e.html">
+        <div class="productimage">
+          <img
+            src="https://exstatic-in.vivo.com/Oz84QB3Wo0uns8j1/in/1692938755979/065a37dce4f7228535e5201d8b8498db.png_w860-h860.webp"
+            alt="">
+        </div>
+        <div class="productname">
+          <h3 class="name_price">VIVO V29e</h3>
+          <h3 class="name_price">₹26,999.00</h3>
+          <h4 class="name_price">₹31,999.00</h4>
+        </div>
+      </a>
+    </div>
+
+    <div class="popularproduct">
+      <a href="/buy&detail/v29.html">
+        <div class="productimage">
+          <img
+            src="https://exstatic-in.vivo.com/Oz84QB3Wo0uns8j1/in/1695965638728/8384f087f17942e0c151ec2a0f761613.png_w860-h860.webp"
+            alt="">
+        </div>
+        <div class="productname">
+          <h3 class="name_price">VIVO V29</h3>
+          <h3 class="name_price">₹32,999.00</h3>
+          <h4 class="name_price">₹32,999.00</h4>
+        </div>
+      </a>
+    </div>
+
+    <div class="popularproduct">
+      <a href="/buy&detail/T2PRO.html">
+        <div class="productimage">
+          <img
+            src="https://exstatic-in.vivo.com/Oz84QB3Wo0uns8j1/in/1695289964447/c03551fd182296c02639860c53e79d28.png_w860-h860.webp"
+            alt="">
+        </div>
+        <div class="productname">
+          <h3 class="name_price">VIVO T2 PRO</h3>
+          <h3 class="name_price">₹24,999.00</h3>
+          <h4 class="name_price">₹27,999.00</h4>
+        </div>
+      </a>
+    </div>
+
+    <div class="popularproduct">
+      <a href="http://127.0.0.1:5500/popularproduct/popularproduct.html">
+        <div class="productname">
+          ALL
+        </div>
+      </a>
+    </div>
+  </div>
+  <div>
+    <footer>
+      <p>&copy; 2024 Vivo Store. All rights reserved.</p>
+    </footer>
+  </div>
+
+</body>
+
+</html>
